@@ -1,0 +1,44 @@
+{
+  "name": "splat-points",
+  "version": "1.0.0",
+  "description": "Splat a sparse set of points onto an ndarray",
+  "main": "splat.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "dirichlet": "^1.0.0",
+    "ndarray": "^1.0.16",
+    "splat-points-1d": "^1.0.0",
+    "splat-points-3d": "^1.0.0",
+    "splat-points-2d": "^1.0.0"
+  },
+  "devDependencies": {
+    "ndarray-pack": "^1.1.1",
+    "tape": "^4.0.0",
+    "zeros": "^1.0.0",
+    "ndarray-show": "^1.1.0",
+    "almost-equal": "^0.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikolalysenko/splat-points.git"
+  },
+  "keywords": [
+    "splat",
+    "point",
+    "cloud",
+    "render",
+    "dirichlet",
+    "filter"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/splat-points/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/splat-points#readme"
+}
